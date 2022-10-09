@@ -1,20 +1,38 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 border-t py-12 h-32">
+    <footer className="bg-cyan-700 border-t py-12 h-32">
       <div className="max-w-5xl mx-auto flex justify-between">
         <div className="flex items-center space-x-4">
           <img
-            src="/react-bricks-icon.svg"
-            alt="React Bricks"
+            src="/network.png"
+            alt="Social Network"
             className="w-8"
           />
-          <div className="uppercase text-sm tracking-wider">Next.js website starter</div>
+          <div className="uppercase font-bold text-white text-lg tracking-wider">Come hangout with me on...</div>
         </div>
-        <div className="text-gray-500 text-sm">
-          © {new Date().getFullYear()}{' '}
-          <a href="https://reactbricks.com" className="hover:text-pink-600">
-            React Bricks
+        <div className="text-white text-sm">
+          
+          <a href="https://twitter.com/AkhMishra" className="hover:text-black">
+          <div className="flex items-center space-x-2">
+          <img
+            src="/twitter.png"
+            alt="Twitter"
+            className="w-4"
+          />
+          <div className="font-bold text-sm tracking-wider">Twitter</div>
+        </div>
           </a>
+          <div></div>
+          <a href="https://www.instagram.com/akhilesh.mishra_/" className="hover:text-black">
+          <div className="flex items-center space-x-2">
+          <img
+            src="/instagram.png"
+            alt="Instagram"
+            className="w-4"
+          />
+          <div className="font-bold text-sm tracking-wider">Instagram</div>
+        </div>
+        </a>
         </div>
       </div>
     </footer>
