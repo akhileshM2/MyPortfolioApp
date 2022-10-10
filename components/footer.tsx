@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="bg-cyan-700 border-t py-12 h-32">
-      <div className="max-w-5xl mx-auto flex justify-between">
+    <footer className="bg-slate-800 border-t py-12 h-32">
+      <div className="max-w-5xl mx-auto flex justify-around">
         <div className="flex items-center space-x-4">
           <img
             src="/network.png"
@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className="text-white text-sm">
           
-          <a href="https://twitter.com/AkhMishra" className="hover:text-black">
+          <a href="https://twitter.com/AkhMishra" className="hover:text-blue-400">
           <div className="flex items-center space-x-2">
           <img
             src="/twitter.png"
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
           </a>
           <div></div>
-          <a href="https://www.instagram.com/akhilesh.mishra_/" className="hover:text-black">
+          <a href="https://www.instagram.com/akhilesh.mishra_/" className="hover:text-blue-400">
           <div className="flex items-center space-x-2">
           <img
             src="/instagram.png"
