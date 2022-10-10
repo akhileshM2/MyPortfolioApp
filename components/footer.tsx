@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="bg-slate-800 border-t py-12 h-32">
-      <div className="max-w-5xl mx-auto flex justify-around">
+      <div className="max-w-5xl mx-auto flex justify-between">
         <div className="flex items-center space-x-4">
           <img
             src="/network.png"
